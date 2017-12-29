@@ -1,3 +1,6 @@
+
+import copy
+
 li = [1, 2, 3, 4, 5, 6, 7, 8]
 
 # print list
@@ -76,6 +79,22 @@ print("List 1:", li)
 # because it copy only the reference of a list
 # if one change other will be changed
 
+# to fix this problem use deep copy
+
+li = copy.deepcopy(li2)
+print("\nList 1 after deep copy, ",li)
+print("List 2:", li2)
+
+print("Change List 2")
+li2[0] = 9
+print("List 2 changed ", li2)
+
+print("\n\nNow compare two list")
+print("List 1", li)
+print("List 2", li2)
+
+print("It not changed")
+print("\n\nThat's all from list")
 
 
 
