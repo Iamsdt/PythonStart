@@ -26,5 +26,13 @@ print("d:", d)
 t = (1)
 print(type(t))
 
-t = (1, )
+t = (1,)
 print(type(t))
+
+# use loop in tuple
+for item in tp:
+    print(item)
+
+# Difference between tuple and list
+# tuple is immutable
+# list is mutable
