@@ -151,7 +151,12 @@ print("List: ", Q)
 li = range(1, 20)
 print("List", list(li))
 
-# list contain even number only
 odd = [item for item in li if item % 2]
 
+odd2 = []
+for item in li:
+    if item % 2:
+        odd2.append(item)
+
 print("Odd numbers: ", odd)
+print("Odd numbers: ", odd2)
