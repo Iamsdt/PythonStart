@@ -144,5 +144,5 @@ print("List: ", Q)
 print("Item accessed: ", Q.pop(0))
 print("List: ", Q)
 
-
+# stack vs Q => stack -> 1 and Q -> n
 
