@@ -97,4 +97,52 @@ print("It not changed")
 print("\n\nThat's all from list")
 
 
+# use list as stack
+# First come first
+# element add in the last
+# by pop function the last one will come
+
+# empty list
+stack = []
+
+
+stack.append(2)
+stack.append(3)
+print(stack)
+
+stack.append(5)
+stack.append(6)
+print(stack)
+
+# remove element from stack
+print("Removed element:", stack.pop())
+print("After remove")
+print(stack)
+
+# Use list as Q
+# First element are placed in the lase
+# when access, the first one will come
+# access by using pop function pop(0)
+
+# empty list
+Q = []
+
+Q.append(1)
+Q.append(2)
+Q.append(3)
+Q.append(4)
+Q.append(5)
+
+print("New List:", Q)
+
+print("Item accessed: ", Q.pop(0))
+print("List: ", Q)
+
+print("Item accessed: ", Q.pop(0))
+print("List: ", Q)
+
+print("Item accessed: ", Q.pop(0))
+print("List: ", Q)
+
+
 
