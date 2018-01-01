@@ -146,3 +146,12 @@ print("List: ", Q)
 
 # stack vs Q => stack -> 1 and Q -> n
 
+# List comprehension
+
+li = range(1, 20)
+print("List", list(li))
+
+# list contain even number only
+odd = [item for item in li if item % 2]
+
+print("Odd numbers: ", odd)
