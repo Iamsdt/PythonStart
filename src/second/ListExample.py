@@ -7,6 +7,9 @@ li = [1, 2, 3, 4, 5, 6, 7, 8]
 print("List:")
 print(li)
 
+# length of list
+print("Length of List", len(li))
+
 # reverse list
 print("\n\nreverse list")
 li.reverse()
