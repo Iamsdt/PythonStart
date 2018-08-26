@@ -191,8 +191,8 @@ def _get_default_tempdir():
 
     We determine whether or not a candidate temp dir is usable by
     trying to create and write to a file in that directory.  If this
-    is successful, the test file is deleted.  To prevent denial of
-    service, the name of the test file must be randomized."""
+    is successful, the practice file is deleted.  To prevent denial of
+    service, the name of the practice file must be randomized."""
 
     namer = _RandomNameSequence()
     dirlist = _candidate_tempdir_list()

@@ -41,7 +41,7 @@ S_IFIFO  = 0o010000  # fifo (named pipe)
 S_IFLNK  = 0o120000  # symbolic link
 S_IFSOCK = 0o140000  # socket file
 
-# Functions to test for each file type
+# Functions to practice for each file type
 
 def S_ISDIR(mode):
     """Return True if mode is from a directory."""
