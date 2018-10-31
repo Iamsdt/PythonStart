@@ -2469,7 +2469,7 @@ def main():
     group.add_argument('-c', '--create', nargs='+',
                        metavar=('<name>', '<file>'),
                        help='Create tarfile from sources')
-    group.add_argument('-t', '--test', metavar='<tarfile>',
+    group.add_argument('-t', '--practice', metavar='<tarfile>',
                        help='Test if a tarfile is valid')
     args = parser.parse_args()
 

@@ -47,7 +47,7 @@ else:
         pass
     sys.modules['importlib._bootstrap_external'] = _bootstrap_external
 
-# To simplify imports in test code
+# To simplify imports in practice code
 _w_long = _bootstrap_external._w_long
 _r_long = _bootstrap_external._r_long
 

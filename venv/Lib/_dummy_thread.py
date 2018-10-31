@@ -130,7 +130,7 @@ class LockType(object):
 
     def release(self):
         """Release the dummy lock."""
-        # XXX Perhaps shouldn't actually bother to test?  Could lead
+        # XXX Perhaps shouldn't actually bother to practice?  Could lead
         #     to problems for complex, threaded code.
         if not self.locked_status:
             raise error

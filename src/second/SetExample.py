@@ -19,7 +19,7 @@ print("\nSet b: ", b)
 print("\nA intersection b: ", a & b)
 print("A union b: ", a | b)
 
-# test a element is on set
+# practice a element is on set
 print("\n", 7 in a)
 print(7 in b)
 

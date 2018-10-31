@@ -691,7 +691,7 @@ class SystemRandom(Random):
         raise NotImplementedError('System entropy source does not have state.')
     getstate = setstate = _notimplemented
 
-## -------------------- test program --------------------
+## -------------------- practice program --------------------
 
 def _test_generator(n, func, args):
     import time
