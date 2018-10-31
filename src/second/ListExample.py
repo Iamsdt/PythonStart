@@ -1,4 +1,3 @@
-
 import copy
 
 li = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -123,7 +122,7 @@ print("After remove")
 print(stack)
 
 # Use list as Q
-# First element are placed in the lase
+# First element are placed in the last
 # when access, the first one will come
 # access by using pop function pop(0)
 
