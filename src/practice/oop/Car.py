@@ -7,7 +7,7 @@ class Car:
         self.name = name
         self.year = year
         self.cc = cc
-        self._fuel += fuel
+        self._fuel = fuel
 
     def add_fuel(self, amount):
         self._fuel += amount
@@ -19,3 +19,6 @@ class Car:
     def fuelStatus(self):
         print("Current Fuel: ", self._fuel)
 
+    def details(self):
+        print("Name: " + self.name + "\nYear:" + str(self.year)
+              + "\nCC:" + str(self.cc) + "\nCurrent Fuel:" + str(self._fuel))
