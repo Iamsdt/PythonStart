@@ -9,7 +9,7 @@ for num in range(0, userCommand):
             if (num % i) == 0:
                 break
         else:
-            print(num)
+            print(num, end=" ")
             prime_number += 1
 
 print("\n\n")
